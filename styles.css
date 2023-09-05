@@ -12,8 +12,8 @@ html {
 
 body {
   font-family: 'Baskervville', serif;
-  color: linen;
-  background-color: rgb(20, 30, 40);
+  color: black;
+  background-color: white;
 }
 
 h1 {
@@ -26,7 +26,7 @@ h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
-  color: linen;
+  color: black;
 }
 
 main {
@@ -36,8 +36,8 @@ main {
 }
 
 img {
-  width: 100%;
-  object-fit: cover;
+    width:100px;
+    height:100px;
 }
 
 hr {
@@ -67,13 +67,13 @@ hr {
 
 .hero-title {
   text-align: center;
-  color: orangered;
+  color: blue;
   font-size: 8rem;
 }
 
 .hero-subtitle {
   font-size: 2.4rem;
-  color: orangered;
+  color: blue;
   text-align: center;
 }
 
@@ -87,7 +87,7 @@ hr {
 }
 
 .publish-date {
-  color: rgba(255, 255, 255, 0.5);
+  color: black;
 }
 
 .social-icons {
@@ -97,11 +97,12 @@ hr {
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
   align-items: center;
+  
 }
 
 .first-paragraph::first-letter {
   font-size: 6rem;
-  color: orangered;
+  color: blue;
   float: left;
   margin-right: 1rem;
 }
